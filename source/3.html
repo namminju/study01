@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>input과 form</title>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Form&Input</h1>
+    <hr>
+    <form action="/submit" method="get">
+        <div>
+            <span>id : </span>
+            <input type="text" name="id" placeholder="학번을 입력해주세요">
+
+        </div>
+        <div style="text-align: center; background-color:yellow;">
+
+            <p>성별을 입력해 주세요.</p>
+            <span>남자 : </span><input type="radio" name="gender" value="male">
+            <span>여자 : </span><input type="radio" name="gender" id="female">
+        </div>
+        <div>
+            <p>좋아하는 동물</p>
+            <input type="checkbox" name="travel" value = "dog"> <span><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA3MjNfMTM1%2FMDAxNjkwMDk5NjIxODI5.tsT1MlrmjfLnwiyh2WUlitI62nxrTdOUXCHpMHimFVgg.w2Ws7VJXkwr2gZ8WzRlWvJmpbv-aDWwB1KYosR1dJkkg.JPEG.skyuiop77%2FIMB_jart4O.jpg&type=sc960_832" width="100px"></span><br>
+            <input type="checkbox" name="travel" value = "cat"> <span><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA5MjFfMTUw%2FMDAxNjk1Mjg2MzI1NDEw.3oamkRkiy5JsnBiPAHxV2BzBvzr5t29UkQud1J6Enlgg.2rX7m7Zj8yeve58gNCdpESXMxF3S4XPLUufKBoQ2PXUg.JPEG.dlscksspwlq%2F661.jpg&type=sc960_832" width="100px"></span><br>           
+            <input type="checkbox" name="travel" value = "ham"> <span><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA1MTZfMjk0%2FMDAxNjg0MjI0MDU5NDM1.Zn0_PwyaINYhBlq9UBI4SUQ98U5tGktauI3E6WGke0Ig.hX7zd6brYPnzhGPko8bShMdnILH7D33HrcuAcmJ9uJ4g.JPEG.cxrr0101%2F%25C1%25A6%25B8%25F1%25C0%25BB_%25C0%25D4%25B7%25C2%25C7%25D8%25C1%25D6%25BC%25BC%25BF%25E4%25A3%25DF%25A3%25AD001%25A3%25AD45.jpg&type=sc960_832" width="100px"></span><br>           
+
+        </div>
+        <input type="submit" value="전송">
+    </form>
+</body>
+
+</html>
