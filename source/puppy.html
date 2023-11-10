@@ -10,7 +10,8 @@
 <style>
     .whole a{
         color:white;
-        padding:10px;
+        padding:10px 20px;
+        border-radius: 5px;
         text-decoration: none;
     }
     .fix{
@@ -20,8 +21,11 @@
         width: 96vw;
         height: 150px;
         margin-top: 0;
+        top:0;
+
     }
     .whole{
+        top:0;
         background-color: black;
         width: 96vw;
         height: 50px;
@@ -36,6 +40,8 @@
     img{
         position: relative;
         width: 30vw;
+        height: 35vw;
+        margin-right: 5px;
     }
     .photo{
         display: flex;
@@ -50,24 +56,34 @@
         margin-top: 10px;
         height:50px
     }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    .whole a:hover{
+        background-color: gray;
+    }
+    .last div{
+        padding: 5px 0;
+    }
 </style>
 
 <body>
     <div class="fix">
-        <h1>animal</h1>
-        <div style="color:blueviolet;text-align: center;">
+        <a href="./index.html"><h1>animal</h1></a>
+        <div style="font-size: px; color:blueviolet;text-align: center;">
            세상의 모든 귀여운 생명체들을 위해서
         </div>
     </div>
     <div class="whole">
 
-        <a href="./puppy.html">
+        <a href="./puppy.html" class="puppy">
             강아지
         </a>
-        <a>고양이</a>
-        <a>햄스터</a>
-        <a>토끼</a>
-        <a>햄스터</a>
+        <a href="./cat.html">고양이</a>
+        <a href="./not.html">햄스터</a>
+        <a href="./not.html">토끼</a>
+        <a href="./not.html">햄스터</a>
     </div>
     <div style="height:220px">...</div>
     <div class="photo">
