@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2번 문제</title>
+    <style>
+        .red{
+            color: red;
+        }
+        .blue{
+            color: blue;
+        }
+    </style>
+</head>
+<script>
+    const arr = [1, "나", "다", {
+        name: "장준혁",
+        age: "22",
+        gender: "male"
+    }, 5];
+    arr.forEach(element => {
+        if(typeof element=="object"){
+            for(let key in element){
+                document.write("<div class='red'>"+element[key] + "</div>");
+            }
+        }else{
+            document.write("<div class='blue'>"+element + "</div>");
+        }
+    });
+</script>
+
+<body>
+
+</body>
+
+</html>
